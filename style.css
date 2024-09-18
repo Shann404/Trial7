@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel-container{
+    width: 40%;
+    margin: auto;
+    border: 5px solid black;
+    overflow:hidden ;
+    position: relative;
+}
+.carousel-slide{
+display: flex;
+width: 100%;
+height: 500px;
+}
+.prevbtn{
+    position: absolute;
+    font-size: 18px;
+    background-color: aliceblue;
+    padding: 3px;
+    top: 30%;
+    left: 32%;
+    border-radius: 20px;
+}
+.nxtbtn{
+    position: absolute;
+    font-size: 18px;
+    background-color: aliceblue;
+    padding: 3px;
+    top: 30%;
+    right: 32%;
+    border-radius: 20px;
+
+}
